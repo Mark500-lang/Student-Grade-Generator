@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Grade Generator</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>      
+        <form class="form1">
+        <fieldset class="subjectList">       
+            <h1>Results input section ~ </h1>
+            Name:<input type="text" placeholder="Name" id="studentName"><br/><br/>
+            <table>
+                <tr><td>English:</td><td><input type="number" placeholder="English marks" id="numEnglish"></td></tr>
+                <tr><td>Kiswahili:</td><td><input type="number" placeholder="Kiswahili marks" id="numKiswahili"></td></tr>
+                <tr><td>Maths:</td><td><input type="number" placeholder="Math marks" id="numMath"></td></tr>
+                <tr><td>Science:</td><td><input type="number" placeholder="Science marks" id="numScience"></td></tr>           
+            </table><br/><br/>
+            <input type="button" value="Submit Result" onclick="getGrade()">
+        </fieldset>
+        </form>
+
+        <section>
+            <h2>Results</h2>
+            <div>
+                <table>
+                    <tr><td>Name:</td><td><input type="text" placeholder="Student Name" id="txtStudentName" readonly></td></tr>
+                    <tr><td>English:</td><td><input type="text" placeholder="English grade" id="txtEnglish" readonly></td></tr>
+                    <tr><td>Kiswahili:</td><td><input type="text" placeholder="Kiswahili grade" id="txtKiswahili" readonly></td></tr>
+                    <tr><td>Maths:</td><td><input type="text" placeholder="Math grade" id="txtMaths" readonly></td></tr>
+                    <tr><td>Science:</td><td><input type="text" placeholder="Science grade" id="txtScience" readonly></td></tr> 
+                    <tr><td>Total Marks:</td><td><input type="number" placeholder="Ttl marks" id="numTotalMarks" readonly></td></tr>
+                    <tr><td>Average Marks:</td><td><input type="number" placeholder="Avg marks" id="numAvgMarks" readonly></td></tr>
+                    <tr><td>Average Grade:</td><td><input type="text" placeholder="Avg Grade" id="txtAvgGrade" readonly></td></tr>         
+                </table><br/><br/>
+            </div>
+        </section>
+        <div>
+            <div class="row">
+               
+            </div>
+        </div>
+    </body>
+</html>
