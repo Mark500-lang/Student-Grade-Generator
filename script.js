@@ -62,7 +62,7 @@ switch(
                 (arrMarks[3] >= 49 && arrMarks[3] <= 59) ? 3 : 
                 (arrMarks[3] >= 40 && arrMarks[3] <= 48) ? 4 : 0
               )
-                
+               
                 {
                     case 1 :dGrade = "A";break;
                     case 2 :dGrade = "B";break;

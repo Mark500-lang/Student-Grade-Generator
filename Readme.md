@@ -12,13 +12,6 @@ A simple student grade generator for  four subjects.
 
 
 ********
-## SetUp Instruction
-### Requirements
-* [Lang](English)
-* [Framework](Framework URL)
-* Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
-* [Testing Platform](Platform URL)
-
 
 ### Getting Files
 * Fork the repo
@@ -29,29 +22,12 @@ A simple student grade generator for  four subjects.
 - Add the changes and commit them (git commit -am "Improve App")
 - Push to the branch (git push origin improve-app)
 - Create a Pull request
-* Open the folder location on terminal and use the following command to run app:
+* Open the folder location on terminal and use the following command to run program:
 
-## How To Run It
->  $ pip install -r requirements.txt
-To install all requirements
-
-> $ python3 manage.py runserver
-Then run server with the above command
-*****
-## Live Link
-Or you can access the web application directly via this [LINK.](link.com/)
-*****
-## Dependencies
-- Package Name
-- Package Name
-- Package Name
-- Package Name
-*****
 ## Technologies Used
 1. HTML
-2. HTML
-3. CSS
-4. JavaScript
+2. CSS
+3. JavaScript
 *****
 ## Contact Information
 * Email : markkantet@gmail.com
