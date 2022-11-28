@@ -6,13 +6,6 @@ Student Grade Generator
 A simple student grade generator for  four subjects.
 ******
 
-//## SCREENSHOTS
-//- link 1
-//- link 2
-
-
-********
-
 ### Getting Files
 * Fork the repo
 - Create a new branch in your terminal (git checkout -b improve-feature)
@@ -33,4 +26,4 @@ A simple student grade generator for  four subjects.
 * Email : markkantet@gmail.com
 ## [License](LICENSE)
 MIT License
-Copyright (c) YEAR Author
+Copyright (c) 2022 Mark Sangiriaki
